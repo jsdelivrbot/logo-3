@@ -1,12 +1,12 @@
 # logo
 
-![fe(3)][logo]
+![fe(3)][banner]
 
 ## License
 
 [MIT][] © [Titus Wormer][author]
 
-[logo]: https://rawgit.com/cmda-fe3/logo/master/logo.svg
+[banner]: https://rawgit.com/cmda-fe3/logo/master/banner.svg
 
 [mit]: LICENSE
 
