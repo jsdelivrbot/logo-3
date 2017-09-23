@@ -14,7 +14,7 @@ var config = {
   rotateRadius: 150,
   rotateSpeed: 80,
   primary: '#feca2f',
-  secondary: 'hsl(45, 99%, 67%);', // lighter.
+  secondary: 'hsl(45, 99%, 67%)', // lighter.
   tertiary: 'hsl(45, 99%, 52%)' // darker.
 };
 
@@ -86,7 +86,7 @@ var doc = [
       '    />',
       '  </path>'
     ].join('\n')
-  }),
+  }).join('\n'),
   '  </defs>',
   Object.keys(shapes).map(function (name) {
     var result = [];
