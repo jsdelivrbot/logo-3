@@ -107,7 +107,7 @@ var doc = [
     }
 
     return result.join('\n');
-  }),
+  }).join('\n'),
   '  <text',
   '    x="' + (config.width / 2) + '"',
   '    y="' + (config.height / 2) + '"',

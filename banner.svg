@@ -236,7 +236,8 @@
   <use
     xlink:href="#t1"
     transform="translate(752.05 2.16) rotate(110.1) scale(0.86)"
-  />,  <use
+  />
+  <use
     xlink:href="#c1"
     transform="translate(1178.88 640.73) rotate(358.83) scale(1.19)"
   />
@@ -315,7 +316,8 @@
   <use
     xlink:href="#c1"
     transform="translate(1025.53 136.78) rotate(24.99) scale(1.01)"
-  />,  <use
+  />
+  <use
     xlink:href="#l1"
     transform="translate(389.13 763.24) rotate(282.09) scale(0.92)"
   />
@@ -394,7 +396,8 @@
   <use
     xlink:href="#l1"
     transform="translate(466.7 794.65) rotate(18.54) scale(1.14)"
-  />,  <use
+  />
+  <use
     xlink:href="#t2"
     transform="translate(602.6 512.57) rotate(13.64) scale(1.07)"
   />
@@ -473,7 +476,8 @@
   <use
     xlink:href="#t2"
     transform="translate(840.85 131.61) rotate(160.24) scale(0.8)"
-  />,  <use
+  />
+  <use
     xlink:href="#c2"
     transform="translate(569.33 465.57) rotate(207.95) scale(0.99)"
   />
@@ -552,7 +556,8 @@
   <use
     xlink:href="#c2"
     transform="translate(385.16 370.57) rotate(183.72) scale(0.97)"
-  />,  <use
+  />
+  <use
     xlink:href="#l2"
     transform="translate(650.88 356.58) rotate(71.51) scale(0.96)"
   />
@@ -631,7 +636,8 @@
   <use
     xlink:href="#l2"
     transform="translate(947.8 618.94) rotate(346.14) scale(1.17)"
-  />,  <use
+  />
+  <use
     xlink:href="#t3"
     transform="translate(695.58 648.17) rotate(336.62) scale(1.13)"
   />
@@ -710,7 +716,8 @@
   <use
     xlink:href="#t3"
     transform="translate(495.37 785.73) rotate(221.12) scale(0.98)"
-  />,  <use
+  />
+  <use
     xlink:href="#c3"
     transform="translate(536.65 756.62) rotate(10.9) scale(0.9)"
   />
@@ -789,7 +796,8 @@
   <use
     xlink:href="#c3"
     transform="translate(557.04 601.96) rotate(44.87) scale(1.05)"
-  />,  <use
+  />
+  <use
     xlink:href="#l3"
     transform="translate(837.99 718.36) rotate(56.93) scale(0.87)"
   />
