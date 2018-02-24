@@ -6,7 +6,7 @@
 
 [MIT][] © [Titus Wormer][author]
 
-[banner]: https://rawgit.com/cmda-fe3/logo/master/banner.svg
+[banner]: https://rawgit.com/cmda-fe3x3/logo/master/banner.svg
 
 [mit]: LICENSE
 
