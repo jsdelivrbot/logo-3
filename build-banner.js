@@ -116,6 +116,7 @@ var doc = [
   '    font-size="' + config.fontSize + '"',
   '    fill="black"',
   '    text-anchor="middle"',
+  '    alignment-baseline="middle"',
   '  >' + config.text + '</text>',
   '</svg>'
 ].join('\n');

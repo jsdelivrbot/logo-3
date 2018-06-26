@@ -885,5 +885,6 @@
     font-size="120"
     fill="black"
     text-anchor="middle"
+    alignment-baseline="middle"
   >fe(3)×1</text>
 </svg>
