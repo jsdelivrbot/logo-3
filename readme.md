@@ -1,6 +1,6 @@
 # logo
 
-![fe(3)][banner]
+![tt()][banner]
 
 ## License
 

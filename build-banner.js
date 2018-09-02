@@ -3,8 +3,8 @@
 var e = 1e2;
 
 var config = {
-  text: 'fe(3)',
-  title: 'Frontend 3',
+  text: 'tt()',
+  title: 'Tech Track',
   fontSize: 120,
   width: 1200,
   height: 800,
