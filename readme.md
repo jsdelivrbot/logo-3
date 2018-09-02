@@ -8,6 +8,6 @@
 
 [banner]: https://rawgit.com/cmda-tt/logo/master/banner.svg
 
-[mit]: LICENSE
+[mit]: license
 
 [author]: http://wooorm.com
