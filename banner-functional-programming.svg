@@ -1,0 +1,890 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 1200 400"
+>
+  <title>Functional Programming</title>
+  <style>
+    :root { color: #2fbcfe; background-color: currentcolor; max-width: 100% }
+    body { margin: 0 }
+    path { fill: none; stroke: hsl(199, 99%, 67%); stroke-width: 5px; stroke-linecap: round }
+    path:nth-child(odd) { stroke: hsl(199, 99%, 52%) }
+  </style>
+  <rect width="100%" height="100%" fill="currentcolor"/>
+  <defs>
+  <path id="t1" d="M7.76,10.89c-1.5,2.18-2.77,4.5-4.27,6.68-1.12,1.63-2.22,4-.86,5.41a4.34,4.34,0,0,0,2.25,1,130.06,130.06,0,0,0,24.85,3.36,2.65,2.65,0,0,0,2-.45,2.5,2.5,0,0,0,.51-2c-.43-7.43-5.32-13.76-10-19.55C21.15,4,20,2.67,18.4,2.18a5.71,5.71,0,0,0-5,1.19,16.87,16.87,0,0,0-3.43,4c-1.43,2.11-.79,1.36-2.23,3.47">
+    <animate
+      attributeName="opacity"
+      repeatCount="indefinite"
+      dur="20s"
+      values="1;1;1;0;0;0;0;0;1"
+    />
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      repeatCount="indefinite"
+      dur="80s"
+      from="360 150 150"
+      to="0 150 150"
+    />
+  </path>
+  <path id="c1" d="M12.36,11.18a1.16,1.16,0,0,0-1.63-.11,3,3,0,0,0-.87,1.58c-.61,2.11-.78,4.58.55,6.32,1.71,2.23,5.36,2.21,7.57.46s3.15-4.69,3.26-7.5a13.18,13.18,0,0,0-1.89-7.67A9.12,9.12,0,0,0,12.85,0,9.93,9.93,0,0,0,4.51,3.82,20.08,20.08,0,0,0,.67,12.45c-.86,3.8-1.14,8,.63,11.44,2.31,4.55,7.64,6.85,12.72,7.3a13.12,13.12,0,0,0,7.81-1.32,15.12,15.12,0,0,0,5-5.68c2.11-3.59,3.87-7.56,3.88-11.73S28.64,3.9,24.84,2.21">
+    <animate
+      attributeName="opacity"
+      repeatCount="indefinite"
+      dur="20s"
+      values="0;1;1;1;0;0;0;0;0"
+    />
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      repeatCount="indefinite"
+      dur="80s"
+      from="360 150 150"
+      to="0 150 150"
+    />
+  </path>
+  <path id="l1" d="M2.07,10.63a6,6,0,0,0,2.89,6A6,6,0,0,0,11.59,16c3.64-3.14,2.84-10.08,7.21-12.06,2.83-1.29,6.15.49,8.31,2.72s3.86,5,6.55,6.59a9.31,9.31,0,0,0,10.47-1A9.31,9.31,0,0,0,46.62,2">
+    <animate
+      attributeName="opacity"
+      repeatCount="indefinite"
+      dur="20s"
+      values="0;0;1;1;1;0;0;0;0"
+    />
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      repeatCount="indefinite"
+      dur="80s"
+      from="360 150 150"
+      to="0 150 150"
+    />
+  </path>
+  <path id="t2" d="M23.42,19c-1.93-6-2.36-7.18-4.09-13.2-.54-1.88-1.82-4.21-3.71-3.74a3.78,3.78,0,0,0-1.45.88,120.75,120.75,0,0,0-9.68,9.15c-1.38,1.45-2.82,3.27-2.41,5.23a6.22,6.22,0,0,0,2.63,3.34,73,73,0,0,0,15.38,9.16c2,.87,4.64,1.5,6-.18s.26-4-1-5.75S24.06,21,23.42,19Z">
+    <animate
+      attributeName="opacity"
+      repeatCount="indefinite"
+      dur="20s"
+      values="0;0;0;1;1;1;0;0;0"
+    />
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      repeatCount="indefinite"
+      dur="80s"
+      from="360 150 150"
+      to="0 150 150"
+    />
+  </path>
+  <path id="c2" d="M13.44,10.08a2.92,2.92,0,0,0-4.15-.66C7.93,10.56,8,12.75,8.79,14.32a6.86,6.86,0,0,0,8.38,3,7.23,7.23,0,0,0,4.17-8A11.85,11.85,0,0,0,18.15,4,11.42,11.42,0,0,0,12.33.14a9.79,9.79,0,0,0-7.4,2C1.72,4.41-.71,8.37.19,12.21a13.84,13.84,0,0,0,1.85,4,30.12,30.12,0,0,0,5,6.55A11.53,11.53,0,0,0,14.33,26,12.35,12.35,0,0,0,22,23.15c4.33-3.33,7.31-9,5.86-14.3">
+    <animate
+      attributeName="opacity"
+      repeatCount="indefinite"
+      dur="20s"
+      values="0;0;0;0;1;1;1;0;0"
+    />
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      repeatCount="indefinite"
+      dur="80s"
+      from="360 150 150"
+      to="0 150 150"
+    />
+  </path>
+  <path id="l2" d="M85.7,8.9c.33-3.32-2.7-6.31-6-6.81s-6.62,1-9.21,3.12S65.89,10,63.64,12.49a9.41,9.41,0,0,1-4.58,3.19c-3.47.78-6.65-2.08-8.76-4.94s-4.2-6.21-7.64-7.11c-3.79-1-7.67,1.51-10.15,4.54s-4.16,6.7-6.93,9.47S18.31,22.12,15,20.06a12.07,12.07,0,0,1-3.69-4.46L7.93,9.85A7.14,7.14,0,0,0,5.39,6.91C4.22,6.3,2.5,6.56,2,7.78">
+    <animate
+      attributeName="opacity"
+      repeatCount="indefinite"
+      dur="20s"
+      values="0;0;0;0;0;1;1;1;0"
+    />
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      repeatCount="indefinite"
+      dur="80s"
+      from="360 150 150"
+      to="0 150 150"
+    />
+  </path>
+  <path id="t3" d="M16.58,2.36A68.52,68.52,0,0,0,5.33,2.14,4.14,4.14,0,0,0,2.7,3C1.38,4.23,2.18,6.42,3,8l8.1,14.87c.65,1.2,1.43,2.5,2.75,2.87a4.89,4.89,0,0,0,3.37-.69A42.36,42.36,0,0,0,32.45,12.46a8.56,8.56,0,0,0,1.79-3.54,3.37,3.37,0,0,0-1.38-3.5A5,5,0,0,0,31,4.92C25.13,4.1,22.51,2.9,16.58,2.36Z">
+    <animate
+      attributeName="opacity"
+      repeatCount="indefinite"
+      dur="20s"
+      values="1;0;0;0;0;0;1;1;1"
+    />
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      repeatCount="indefinite"
+      dur="80s"
+      from="360 150 150"
+      to="0 150 150"
+    />
+  </path>
+  <path id="c3" d="M16.66,19.31c0-2.1-2.84-3.38-4.68-2.35s-2.46,3.52-1.85,5.54c1.12,3.7,5.8,5.64,9.41,4.27s5.81-5.44,5.52-9.3a12.82,12.82,0,0,0-6-9.46A12.7,12.7,0,0,0,8,6.38,12.65,12.65,0,0,0,.54,15.12a20.73,20.73,0,0,0,.75,11.75,17.2,17.2,0,0,0,2.43,4.92c3.94,5.26,11.55,6.36,18,5a17.51,17.51,0,0,0,7.55-3.24,15.27,15.27,0,0,0,4.9-8.16A20.76,20.76,0,0,0,18.61,0">
+    <animate
+      attributeName="opacity"
+      repeatCount="indefinite"
+      dur="20s"
+      values="1;0;0;0;0;0;0;1;1"
+    />
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      repeatCount="indefinite"
+      dur="80s"
+      from="360 150 150"
+      to="0 150 150"
+    />
+  </path>
+  <path id="l3" d="M2,19.86c2.37-3.51,2.92-9.08,7-10,2.51-.58,5,1.1,6.65,3.1s2.78,4.4,4.69,6.14a10.34,10.34,0,0,0,13.12.34c3.4-2.8,4.55-7.42,6.65-11.29S46.72.68,50.74,2.48c5.2,2.33,4.63,11.25,9.95,13.29a8.22,8.22,0,0,0,6.09-.56,18.15,18.15,0,0,0,9.57-9.86">
+    <animate
+      attributeName="opacity"
+      repeatCount="indefinite"
+      dur="20s"
+      values="1;1;0;0;0;0;0;0;1"
+    />
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      repeatCount="indefinite"
+      dur="80s"
+      from="360 150 150"
+      to="0 150 150"
+    />
+  </path>
+  </defs>
+  <use
+    xlink:href="#t1"
+    transform="translate(892.94 217.3) rotate(25.02) scale(1)"
+  />
+  <use
+    xlink:href="#t1"
+    transform="translate(771.2 250.66) rotate(260.91) scale(0.93)"
+  />
+  <use
+    xlink:href="#t1"
+    transform="translate(997.15 165.93) rotate(246.22) scale(0.98)"
+  />
+  <use
+    xlink:href="#t1"
+    transform="translate(533.56 39.55) rotate(58.66) scale(1.06)"
+  />
+  <use
+    xlink:href="#t1"
+    transform="translate(516.33 57.28) rotate(266.54) scale(0.94)"
+  />
+  <use
+    xlink:href="#t1"
+    transform="translate(467.12 79.42) rotate(38.86) scale(1)"
+  />
+  <use
+    xlink:href="#t1"
+    transform="translate(784.92 369.72) rotate(76.4) scale(0.95)"
+  />
+  <use
+    xlink:href="#t1"
+    transform="translate(798.52 21.78) rotate(127.67) scale(1.01)"
+  />
+  <use
+    xlink:href="#t1"
+    transform="translate(914.14 9.79) rotate(216.54) scale(0.91)"
+  />
+  <use
+    xlink:href="#t1"
+    transform="translate(1155.62 329.16) rotate(20.24) scale(0.88)"
+  />
+  <use
+    xlink:href="#t1"
+    transform="translate(915.42 1.38) rotate(250.19) scale(1.11)"
+  />
+  <use
+    xlink:href="#t1"
+    transform="translate(1062.31 376.88) rotate(246.84) scale(0.87)"
+  />
+  <use
+    xlink:href="#t1"
+    transform="translate(1004.85 325.31) rotate(320.8) scale(1.12)"
+  />
+  <use
+    xlink:href="#t1"
+    transform="translate(747.05 330.69) rotate(213.55) scale(1.17)"
+  />
+  <use
+    xlink:href="#t1"
+    transform="translate(223.22 54.87) rotate(201.5) scale(0.95)"
+  />
+  <use
+    xlink:href="#t1"
+    transform="translate(92.11 243.77) rotate(229.03) scale(0.92)"
+  />
+  <use
+    xlink:href="#t1"
+    transform="translate(234.13 25.78) rotate(283.82) scale(0.8)"
+  />
+  <use
+    xlink:href="#t1"
+    transform="translate(1171.71 12.67) rotate(3.9) scale(1.04)"
+  />
+  <use
+    xlink:href="#t1"
+    transform="translate(554.82 138.62) rotate(177.48) scale(1.05)"
+  />
+  <use
+    xlink:href="#t1"
+    transform="translate(1134.2 11.13) rotate(334.76) scale(1.02)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(363.54 160.25) rotate(212.75) scale(1.05)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(389.57 18.97) rotate(51.55) scale(1)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(12.82 134.57) rotate(47.5) scale(1.01)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(801.3 382.33) rotate(10.97) scale(1.06)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(621.75 388.43) rotate(319.92) scale(1.09)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(66.75 99.83) rotate(351.1) scale(1.11)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(772.52 6.28) rotate(279.39) scale(0.83)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(194.97 290.28) rotate(209.47) scale(0.85)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(104.95 264.9) rotate(45.76) scale(1.17)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(531.85 42.58) rotate(310.82) scale(1.08)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(20.53 156.73) rotate(216.21) scale(1)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(69.12 147.2) rotate(293.67) scale(1.14)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(480.05 293.26) rotate(292.98) scale(0.98)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(519.42 370.81) rotate(65.47) scale(1.12)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(904.96 296) rotate(45.41) scale(1.17)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(1116.63 274.7) rotate(328.58) scale(0.93)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(657.86 72.32) rotate(201.58) scale(1.03)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(661.18 9.8) rotate(231.86) scale(0.98)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(286.26 225.25) rotate(99.14) scale(1.11)"
+  />
+  <use
+    xlink:href="#c1"
+    transform="translate(325.81 156.5) rotate(71.56) scale(0.81)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(29.49 326.82) rotate(66.87) scale(0.97)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(35.77 178.75) rotate(29.63) scale(1.12)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(282.77 240.86) rotate(110.67) scale(1.03)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(1041.23 146.81) rotate(14.41) scale(0.84)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(1074.99 30.11) rotate(223.55) scale(0.88)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(902.7 346.91) rotate(241.86) scale(0.87)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(285.18 153.68) rotate(345.84) scale(0.82)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(467.07 149.97) rotate(248.53) scale(0.97)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(1001.98 46.18) rotate(195.58) scale(0.91)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(809.44 353.35) rotate(78.63) scale(1.09)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(846.62 311.64) rotate(113.41) scale(1.05)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(708.87 144.43) rotate(232.79) scale(0.99)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(718.82 118.78) rotate(9.34) scale(0.98)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(705.62 21.05) rotate(190.61) scale(1.17)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(384.68 323.98) rotate(17.42) scale(1.09)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(316.09 195.66) rotate(45.63) scale(1.13)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(96.38 158.63) rotate(330.34) scale(1.13)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(38.88 332.48) rotate(215.85) scale(1.15)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(1167.14 182.27) rotate(158.14) scale(1)"
+  />
+  <use
+    xlink:href="#l1"
+    transform="translate(389.5 226.96) rotate(319.76) scale(1.18)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(468.31 310.71) rotate(305.96) scale(1.02)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(1123.35 74.9) rotate(241.71) scale(0.86)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(626.64 276.57) rotate(17.38) scale(1.06)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(917.28 203.78) rotate(113.79) scale(1.08)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(245.41 257.31) rotate(179.54) scale(0.98)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(132.74 1.8) rotate(77.52) scale(1.11)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(590.19 50.38) rotate(70.02) scale(1.19)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(328.58 354.65) rotate(11.2) scale(1.04)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(284.86 244.1) rotate(161.12) scale(1.06)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(267.92 84.82) rotate(352.58) scale(1.16)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(1033.13 154.72) rotate(331.54) scale(0.9)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(889.02 147.26) rotate(54.13) scale(0.94)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(981.96 395.14) rotate(70.7) scale(1)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(117.91 354.81) rotate(268.93) scale(0.93)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(1061.14 379.6) rotate(53.36) scale(0.95)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(1009.64 17.3) rotate(224.73) scale(1.06)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(381.22 152.09) rotate(266.77) scale(1.13)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(985.03 3.78) rotate(176.02) scale(0.81)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(941.81 64.26) rotate(166.36) scale(1.09)"
+  />
+  <use
+    xlink:href="#t2"
+    transform="translate(572.08 158.96) rotate(8.94) scale(0.84)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(123.13 387.05) rotate(121.72) scale(0.98)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(208.44 179.28) rotate(160.56) scale(1.13)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(33.93 160.96) rotate(107.42) scale(0.86)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(1194.06 338.03) rotate(208.98) scale(1.17)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(92.06 339.88) rotate(353.19) scale(0.87)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(280.97 395.02) rotate(142.52) scale(0.82)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(99.32 100.89) rotate(85.34) scale(0.95)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(380.24 328.97) rotate(109.54) scale(0.89)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(1025.54 363.64) rotate(169.95) scale(0.98)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(978.09 344.44) rotate(125.81) scale(0.82)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(1153.78 298.75) rotate(110.22) scale(1.09)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(976.97 167.05) rotate(309.12) scale(1.17)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(231.43 363.64) rotate(219.15) scale(1.06)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(569.58 393.52) rotate(192.3) scale(1.11)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(987.62 241.45) rotate(186.83) scale(0.82)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(739.4 7.85) rotate(84.37) scale(1.19)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(206.73 252.8) rotate(38.62) scale(0.98)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(930.46 336.84) rotate(237.42) scale(0.95)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(736.06 355.98) rotate(143.63) scale(0.98)"
+  />
+  <use
+    xlink:href="#c2"
+    transform="translate(1043.33 176.09) rotate(161.58) scale(1.05)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(504.98 89.56) rotate(34.8) scale(1.18)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(614.03 319.17) rotate(318.78) scale(1.13)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(1109.62 35.03) rotate(78.96) scale(1.12)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(1009.76 220.72) rotate(234.92) scale(1.14)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(591.04 394.07) rotate(26.69) scale(0.9)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(1168.15 386.16) rotate(87.44) scale(0.87)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(368.82 29.65) rotate(115.64) scale(0.94)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(457.55 66.6) rotate(125.49) scale(0.83)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(1028.07 29.21) rotate(163.24) scale(1.13)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(867.79 257.09) rotate(326.82) scale(0.85)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(955.49 119.43) rotate(321.46) scale(0.87)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(163.44 137.07) rotate(115.57) scale(0.97)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(254.56 307.29) rotate(30.58) scale(0.81)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(661.84 382.85) rotate(212.65) scale(1.02)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(675.22 297.04) rotate(175.51) scale(1.06)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(919.73 395.82) rotate(222.06) scale(1.08)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(586.97 158.59) rotate(135.22) scale(0.8)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(52.67 282.25) rotate(128.08) scale(0.99)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(578.07 125.54) rotate(123.2) scale(1.02)"
+  />
+  <use
+    xlink:href="#l2"
+    transform="translate(380.66 196.86) rotate(343.78) scale(1.02)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(1060.96 222.44) rotate(273.1) scale(1.03)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(700.72 112.08) rotate(297.54) scale(0.97)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(1181.04 395.32) rotate(173.76) scale(0.85)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(475.41 214.72) rotate(53.76) scale(0.84)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(414.76 363.61) rotate(101.23) scale(0.82)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(722.99 240.58) rotate(41.73) scale(0.83)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(620.46 338.56) rotate(115.15) scale(0.82)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(537.69 95.12) rotate(214.33) scale(0.85)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(803.29 293.11) rotate(180.79) scale(1.16)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(1079.79 36.29) rotate(6.69) scale(1.11)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(871.86 277.83) rotate(227.49) scale(0.88)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(762.72 248.61) rotate(235.18) scale(1.07)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(902.73 338.37) rotate(357.1) scale(0.87)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(951.12 211.36) rotate(58.16) scale(1.02)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(716.18 51.46) rotate(111.56) scale(0.98)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(1108.41 296.28) rotate(133.98) scale(0.98)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(47.05 175.78) rotate(111.15) scale(0.96)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(207 86.56) rotate(253.75) scale(0.99)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(877.63 274.47) rotate(195.96) scale(0.99)"
+  />
+  <use
+    xlink:href="#t3"
+    transform="translate(187.56 94.22) rotate(186.16) scale(1)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(285.2 237.76) rotate(226.24) scale(1.15)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(1015.79 73.12) rotate(329.23) scale(1.01)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(798.12 375.64) rotate(283.07) scale(0.9)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(335.68 307.56) rotate(188.61) scale(1.1)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(606.87 23.34) rotate(290.92) scale(0.81)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(1069.24 10.66) rotate(229.29) scale(1.04)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(736.19 270.12) rotate(248.78) scale(0.82)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(438.28 354.96) rotate(239.58) scale(0.91)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(962.63 235.1) rotate(221.77) scale(0.85)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(982.13 272.31) rotate(18.15) scale(0.99)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(390.47 320.57) rotate(58.7) scale(0.84)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(239.74 35.1) rotate(8.88) scale(1.13)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(947.95 236.23) rotate(107.24) scale(1.07)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(97.83 341.24) rotate(209.64) scale(0.84)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(379.28 129.5) rotate(261.37) scale(1.14)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(22.18 187.73) rotate(244.43) scale(1.12)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(786.48 173.2) rotate(141.59) scale(0.88)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(51.03 354.2) rotate(73.99) scale(1.03)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(320.69 370.08) rotate(287.33) scale(1.01)"
+  />
+  <use
+    xlink:href="#c3"
+    transform="translate(794.74 336.07) rotate(125.41) scale(1.17)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(624.77 151.29) rotate(81.15) scale(1.09)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(886.25 351.73) rotate(12.95) scale(1.06)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(261.21 248.4) rotate(69.4) scale(0.84)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(40.02 192.96) rotate(192.83) scale(1.12)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(116.5 357.64) rotate(54.58) scale(0.82)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(330.14 137.79) rotate(287.46) scale(1.01)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(303.24 360.77) rotate(153.47) scale(0.87)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(1100.21 202.26) rotate(156) scale(1.03)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(588.89 265.95) rotate(263.64) scale(1.05)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(138.48 356.75) rotate(23.5) scale(0.96)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(874.55 160.7) rotate(122.62) scale(1.16)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(739.35 276.73) rotate(193.7) scale(0.98)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(32.15 10.6) rotate(137.28) scale(1.16)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(595.9 356.46) rotate(22.25) scale(0.89)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(772.97 356.91) rotate(170.66) scale(0.98)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(431.18 216.84) rotate(293.88) scale(1.14)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(605.28 329.15) rotate(41.41) scale(1.19)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(1138.66 121.39) rotate(3.68) scale(0.99)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(127.22 27) rotate(115.45) scale(0.96)"
+  />
+  <use
+    xlink:href="#l3"
+    transform="translate(8.83 371.86) rotate(277.1) scale(1.01)"
+  />
+  <text
+    x="600"
+    y="200"
+    font-family="courier new, courier, monospace"
+    font-weight="bold"
+    font-size="120"
+    fill="black"
+    text-anchor="middle"
+    alignment-baseline="middle"
+  >fp()</text>
+</svg>
